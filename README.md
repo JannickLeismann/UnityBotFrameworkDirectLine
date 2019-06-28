@@ -39,5 +39,5 @@ DirectLineConnection.instance.SendMessage("Hello Bot");
 
 
 # Important Notes
-- **This one is crucial!** In order to achieve a valid connection via WebSocket **YOU SHOULD NEVER change the name of the GameObject called DirectLineConnection**. The custom javascript library (.../Assets/Plugins/WebSocket.jslib) requieres an object with excatly this name to send back messages from WebGL JavaScript.
+- **This one is crucial!** In order to achieve a valid connection via WebSocket in WebGL **YOU SHOULD NEVER change the name of the GameObject called DirectLineConnection**. The custom javascript library (.../Assets/Plugins/WebSocket.jslib) requieres an object with excatly this name to send back messages from WebGL JavaScript.
 
