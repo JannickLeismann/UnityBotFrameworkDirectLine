@@ -1,3 +1,6 @@
+### About this repository
+Unfortunately Unity and WebGL do not support multithreading but this implementation allows you to easily integrated a microsoft direct line bot to a unity project.
+
 ### Features
 
 - Listen to messages via WebSocket connection
@@ -21,7 +24,7 @@ Here is how to get the secret key: https://docs.microsoft.com/en-gb/azure/bot-se
 
 #####  If you want to use the code in your project make sure to use the namespace:
 ```csharp
-using namespace DirectLine;
+using DirectLine;
 ```
 
 
